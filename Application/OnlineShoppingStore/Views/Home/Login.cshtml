@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1 id="h1id" class="headstyle"> Welcome to Login page !</h1>
+    <h3 class="lead">in this page you can login to dashbord!..</h3>
+</div>
+
+<form class="form" id="login">
+    <div class="login-info">
+        <table class="container" style="width:100%">
+
+            <tr>
+                <th><label for="login">Enter User name :</label></th>
+                <td><input id="name" type="text" placeholder="Enter Username"  required></td>
+
+
+            </tr>
+            <tr>
+
+                <th><label for="login">Enter Password :</label></th>
+                <td><input id="psw" type="password" placeholder="Enter Password"  required></td>
+
+            </tr>
+
+            <tr>
+
+
+                <td>
+                    <a id="login" style="border-radius:initial;" href="../Admin/Dashboard">Login</a>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+
+</form>
+
